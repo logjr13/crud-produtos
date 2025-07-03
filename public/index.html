@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>Gerenciador de Produtos</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Gerenciador de Produtos</h1>
+
+    <form id="formProduto">
+      <input type="hidden" id="produtoId">
+      <input type="text" id="produto" placeholder="Nome do Produto" required />
+      <input type="number" id="preco" placeholder="Preço" step="0.01" required />
+      <input type="number" id="quantidade" placeholder="Quantidade" required />
+      <input type="text" id="descricao" placeholder="Descrição" />
+      <button type="submit">Salvar</button>
+    </form>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Produto</th>
+          <th>Preço</th>
+          <th>Quantidade</th>
+          <th>Descrição</th>
+          <th>Ações</th>
+        </tr>
+      </thead>
+      <tbody id="tabelaProdutos"></tbody>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
