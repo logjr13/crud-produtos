@@ -1,22 +1,23 @@
 {
-  "name": "crud",
+  "name": "crud-produtos",
   "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^5.1.0",
-    "sqlite": "^5.1.1",
-    "sqlite3": "^5.1.7"
-  },
-  "scripts": {
-  "start": "node server.js"
-  },
+  "description": "CRUD de produtos com Node.js, Express e SQLite",
+  "main": "server.js",
   "type": "module",
-  "description": ""
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "express",
+    "sqlite",
+    "crud",
+    "node"
+  ],
+  "author": "Seu Nome",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "sqlite": "^4.1.2",
+    "sqlite3": "^5.1.6"
+  }
 }
